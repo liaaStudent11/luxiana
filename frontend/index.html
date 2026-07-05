@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxiana — High Luxury Fashion House</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ANNOUNCEMENT BAR -->
+<div class="announce">Gratis Ongkir Untuk Semua Pesanan • Layanan Personal Shopper Tersedia</div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="#home" class="logo">LUX<span>I</span>ANA</a>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#collection">Koleksi</a>
+      <a href="#newArrivalSection">New Arrival</a>
+      <a href="#categories">Kategori</a>
+      <a href="#limitedEditionSection">Limited Edition</a>
+      <a href="#saleSection">Sale</a>
+      <a href="#about">Tentang</a>
+      <a href="#" id="navOrdersLink">Pesanan Saya</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="wishBtn" title="Wishlist">♡</button>
+      <button class="icon-btn" id="cartBtn" title="Keranjang">
+        🛍️<span class="cart-badge hidden" id="cartBadge">0</span>
+      </button>
+      <button class="icon-btn" id="userBtn" title="Akun">👤</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">— Signature Collection 2026</span>
+      <h1>Where Style Meets <em>Prestige</em> </h1>
+      <p>Discover exceptional pieces designed for those who appreciate timeless elegance and premium craftsmanship.</p>
+      <div class="hero-btns">
+        <a href="#collection" class="btn">Discover Collection</a>
+        <a href="#about" class="btn btn-outline">About Luxiana</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <h3>200+</h3>
+          <span>Koleksi Eksklusif</span>
+        </div>
+        <div class="hero-stat">
+          <h3>15K+</h3>
+          <span>Pelanggan Setia</span>
+        </div>
+        <div class="hero-stat">
+          <h3>4.9★</h3>
+          <span>Toko Rating Tertinggi</span>
+        </div>
+      </div>
+    </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- FULL-WIDTH EDITORIAL IMAGE -->
+<div class="full-bleed" id="fullBleedBanner">
+  <img src="https://chatgpt.com/backend-api/estuary/content?id=file_000000009c0c71fa9a85c5573ee6f46c&ts=495273&p=fs&cid=1&sig=fef9cf36e627d60216e9c89ae1d6325c7f2850cd6c582c0e56b2eed223ffe13f&v=0" alt="Luxiana Editorial" loading="lazy">
+  <div class="full-bleed-caption reveal">
+    <span>Atelier Craftsmanship</span>
+    <h2>Setiap Jahitan, Sebuah Warisan</h2>
+  </div>
+</div>
+
+<!-- PRODUCT COLLECTION -->
+<section class="section" id="collection">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Atelier Luxiana</span>
+      <h2>Koleksi Lengkap</h2>
+      <p>Setiap karya dibuat dengan presisi tinggi oleh para maestro pengrajin kami.</p>
+    </div>
+
+    <div class="filter-bar">
+      <div class="filter-chips" id="filterChips">
+        <button class="chip active" data-cat="all">Semua</button>
+      </div>
+      <select class="sort-select" id="sortSelect">
+        <option value="default">Urutkan: Rekomendasi</option>
+        <option value="price-asc">Harga: Rendah ke Tinggi</option>
+        <option value="price-desc">Harga: Tinggi ke Rendah</option>
+        <option value="newest">Terbaru</option>
+        <option value="bestseller">Terlaris</option>
+      </select>
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+  </div>
+</section>
+
+<!-- NEW ARRIVAL -->
+<section class="section-tight hidden" id="newArrivalSection">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Baru Tiba</span>
+      <h2>New Arrival</h2>
+      <p>Koleksi terbaru yang baru saja tiba di atelier kami, dipilih khusus untuk Anda yang selalu ingin tampil terdepan.</p>
+    </div>
+    <div class="product-grid" id="newArrivalGrid"></div>
+  </div>
+</section>
+
+<!-- CATEGORY STRIP -->
+<section class="section-tight" id="categories">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Kategori Pilihan</span>
+      <h2>Belanja Berdasarkan Kategori</h2>
+    </div>
+    <div class="cat-strip reveal" id="catStrip"></div>
+  </div>
+</section>
+
+<!-- LIMITED EDITION -->
+<section class="section-tight hidden" id="limitedEditionSection">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Koleksi Terbatas</span>
+      <h2>Limited Edition</h2>
+      <p>Diproduksi dalam jumlah sangat terbatas — begitu habis, tidak akan diproduksi kembali.</p>
+    </div>
+    <div class="product-grid" id="limitedEditionGrid"></div>
+  </div>
+</section>
+
+<!-- SALE -->
+<section class="section-tight hidden" id="saleSection">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Penawaran Terbatas</span>
+      <h2>Sedang Sale</h2>
+      <p>Nikmati potongan harga eksklusif untuk pilihan produk terbaik kami, selama persediaan masih ada.</p>
+    </div>
+    <div class="product-grid" id="saleGrid"></div>
+  </div>
+</section>
+
+<!-- EDITORIAL BANNER -->
+<section class="editorial-banner" id="about">
+  <div class="container reveal">
+    <span class="eyebrow" style="color:#C9B589;">Filosofi Kami</span>
+    <h2>Dibuat untuk Bertahan Melampaui Tren</h2>
+    <p>Sejak awal, Luxiana berkomitmen pada keahlian tangan, material premium, dan desain abadi — bukan sekadar mengikuti musim, namun menciptakan warisan.</p>
+    <a href="#collection" class="btn btn-gold">Temukan Koleksi Kami</a>
+
+    <div class="brand-video-wrap">
+      <video class="brand-video" autoplay muted loop playsinline>
+        <source src="video/video1.mp4" type="video/mp4">
+        Browser Anda tidak mendukung tag video.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <a href="#" class="logo">LUX<span style="color:#C9B589">I</span>ANA</a>
+      <p>Rumah mode adibusana yang menghadirkan keanggunan klasik melalui material terbaik dan keahlian tangan tanpa kompromi.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigasi</h5>
+      <ul>
+        <li>Beranda</li>
+        <li>Koleksi</li>
+        <li>Tentang Kami</li>
+        <li>Pesanan Saya</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Layanan</h5>
+      <ul>
+        <li>Lacak Pesanan</li>
+        <li>Panduan Ukuran</li>
+        <li>Kebijakan Retur</li>
+        <li>Hubungi Kami</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Hubungi Kami</h5>
+      <ul>
+        <li>Jl. Senopati No. 88, Jakarta Selatan</li>
+        <li>+62 811 8888 999</li>
+        <li>care@luxiana.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Luxiana. Seluruh hak cipta dilindungi.</span>
+    <span>Dibuat dengan dedikasi pada keanggunan.</span>
+  </div>
+</footer>
+
+<!-- ================= LOGIN MODAL ================= -->
+<div class="overlay center" id="loginOverlay">
+  <div class="modal-box">
+    <button class="close-x" data-close="loginOverlay">✕</button>
+    <div class="panel-header" style="text-align:center;">
+      <span class="eyebrow">Selamat Datang</span>
+      <h3>Masuk ke Luxiana</h3>
+    </div>
+    <button class="gmail-btn" id="gmailLoginBtn">
+      <span class="gmail-g"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+      <span>Masuk dengan Google</span>
+    </button>
+    <div class="or-sep">atau masukkan email gmail</div>
+    <div class="field" id="gmailField">
+      <label>Alamat Gmail</label>
+      <input type="email" id="gmailInput" placeholder="namaanda@gmail.com">
+      <div class="field-error" id="gmailError">Masukkan alamat gmail yang valid (harus diakhiri @gmail.com).</div>
+    </div>
+    <button class="btn btn-block" id="gmailSubmitBtn">Lanjutkan</button>
+    <p class="auth-note">Tidak perlu kata sandi — cukup gunakan akun Gmail Anda untuk berbelanja di Luxiana.</p>
+  </div>
+</div>
+
+<!-- ================= ACCOUNT PANEL (MY ACCOUNT HUB) ================= -->
+<div class="overlay" id="accountOverlay">
+  <div class="panel wide" id="accountPanelBox">
+    <button class="close-x" data-close="accountOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow">Akun Saya</span>
+      <h3 id="accountUserName">Tamu</h3>
+      <p id="accountUserEmail" style="color:#888;font-size:13px;margin-top:4px;"></p>
+    </div>
+
+    <div id="accountLoggedOutView">
+      <p style="color:#888;font-size:14px;margin-bottom:20px;">Anda belum masuk. Masuk untuk mengakses profil, alamat, pesanan, wishlist, dan refund Anda.</p>
+      <button class="btn btn-block" id="openLoginFromAccount">Masuk Sekarang</button>
+    </div>
+
+    <div id="accountLoggedInView" class="hidden">
+      <div class="acc-tabs" id="accTabs">
+        <button class="acc-tab active" data-tab="profile">👤 Profil</button>
+        <button class="acc-tab" data-tab="address">📍 Alamat</button>
+        <button class="acc-tab" data-tab="orders">📦 Riwayat Pesanan</button>
+        <button class="acc-tab" data-tab="wishlist">♡ Wishlist</button>
+        <button class="acc-tab" data-tab="refund">↩ Refund</button>
+      </div>
+
+      <!-- PROFIL -->
+      <div class="acc-tab-content" id="acc-profile">
+        <div class="field-row">
+          <div class="field">
+            <label>Nama Lengkap</label>
+            <input type="text" id="accProfileName" maxlength="30" placeholder="Nama lengkap Anda">
+            <div class="field-hint">Huruf saja, maksimal 30 karakter.</div>
+            <div class="field-error">Nama hanya boleh berisi huruf (tanpa angka), maksimal 30 karakter.</div>
+          </div>
+          <div class="field">
+            <label>Nomor Telepon</label>
+            <input type="text" id="accProfilePhone" inputmode="numeric" maxlength="14" placeholder="Contoh: 081234567890">
+            <div class="field-hint">Hanya angka, maksimal 14 digit.</div>
+            <div class="field-error">Nomor telepon harus berupa angka, maksimal 14 digit.</div>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label>Jenis Kelamin</label>
+            <select id="accProfileGender">
+              <option value="">Pilih (opsional)</option>
+              <option value="Perempuan">Perempuan</option>
+              <option value="Laki-laki">Laki-laki</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Tanggal Lahir</label>
+            <input type="date" id="accProfileBirthdate">
+          </div>
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" id="accProfileEmail" disabled>
+          <div class="field-hint">Email terhubung dengan akun Gmail Anda dan tidak dapat diubah.</div>
+        </div>
+        <button class="btn" id="accProfileSaveBtn">Simpan Profil</button>
+      </div>
+
+      <!-- ALAMAT -->
+      <div class="acc-tab-content hidden" id="acc-address">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+          <p style="color:#888;font-size:13px;">Kelola alamat pengiriman Anda.</p>
+          <button class="btn btn-sm btn-gold" id="accAddAddressBtn">+ Tambah Alamat</button>
+        </div>
+        <div id="accAddressList"></div>
+      </div>
+
+      <!-- RIWAYAT PESANAN -->
+      <div class="acc-tab-content hidden" id="acc-orders">
+        <div id="accOrdersListContainer"></div>
+      </div>
+
+      <!-- WISHLIST -->
+      <div class="acc-tab-content hidden" id="acc-wishlist">
+        <div id="accWishItemsContainer"></div>
+      </div>
+
+      <!-- REFUND -->
+      <div class="acc-tab-content hidden" id="acc-refund">
+        <p style="color:#888;font-size:13px;margin-bottom:16px;">Ajukan refund untuk pesanan yang sudah selesai, atau pantau status refund Anda di bawah.</p>
+        <div id="accRefundListContainer"></div>
+      </div>
+
+      <button class="btn btn-outline btn-block" id="logoutBtn" style="margin-top:30px;">Keluar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= ADDRESS FORM MODAL ================= -->
+<div class="overlay center" id="addressFormOverlay">
+  <div class="modal-box">
+    <button class="close-x" data-close="addressFormOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow" id="addressFormEyebrow">Alamat Baru</span>
+      <h3 id="addressFormTitle">Tambah Alamat</h3>
+    </div>
+    <input type="hidden" id="afId">
+    <div class="field">
+      <label>Label Alamat</label>
+      <input type="text" id="afLabel" maxlength="20" placeholder="Contoh: Rumah, Kantor">
+      <div class="field-hint">Tidak boleh mengandung angka.</div>
+      <div class="field-error">Label alamat tidak boleh mengandung angka.</div>
+    </div>
+    <div class="field">
+      <label>Nama Penerima</label>
+      <input type="text" id="afRecipientName" maxlength="30" placeholder="Nama lengkap penerima">
+      <div class="field-hint">Huruf saja, maksimal 30 karakter.</div>
+      <div class="field-error">Nama penerima hanya boleh berisi huruf (tanpa angka), maksimal 30 karakter.</div>
+    </div>
+    <div class="field">
+      <label>Nomor Telepon</label>
+      <input type="text" id="afPhone" inputmode="numeric" maxlength="14" placeholder="Contoh: 081234567890">
+      <div class="field-hint">Hanya angka, maksimal 14 digit.</div>
+      <div class="field-error">Nomor telepon harus berupa angka, maksimal 14 digit.</div>
+    </div>
+    <div class="field">
+      <label>Alamat Lengkap</label>
+      <textarea id="afAddress" placeholder="Nama jalan, nomor rumah, RT/RW, Kelurahan, Kecamatan"></textarea>
+      <div class="field-error">Alamat harus detail (minimal 20 karakter).</div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Kota / Kabupaten</label>
+        <div class="combo-field" id="afCityCombo">
+          <input type="text" id="afCity" placeholder="Contoh: Jakarta Selatan" autocomplete="off">
+          <div class="combo-list" id="afCityList"></div>
+        </div>
+        <div class="field-error">Kota wajib diisi.</div>
+      </div>
+      <div class="field">
+        <label>Kode Pos</label>
+        <input type="text" id="afPostal" inputmode="numeric" maxlength="5" placeholder="Contoh: 12190">
+        <div class="field-hint">Hanya angka, maksimal 5 digit.</div>
+        <div class="field-error">Kode pos harus berupa angka, maksimal 5 digit.</div>
+      </div>
+    </div>
+    <div class="field">
+      <label>Provinsi</label>
+      <div class="combo-field" id="afProvinceCombo">
+        <input type="text" id="afProvince" placeholder="Contoh: DKI Jakarta" autocomplete="off">
+        <div class="combo-list" id="afProvinceList"></div>
+      </div>
+      <div class="field-error">Provinsi wajib diisi.</div>
+    </div>
+    <div class="field">
+      <label style="display:flex;align-items:center;gap:8px;font-weight:400;">
+        <input type="checkbox" id="afIsDefault" style="width:auto;">
+        Jadikan alamat utama
+      </label>
+    </div>
+    <button class="btn btn-block" id="afSaveBtn">Simpan Alamat</button>
+  </div>
+</div>
+
+<!-- ================= REFUND REQUEST MODAL ================= -->
+<div class="overlay center" id="refundFormOverlay">
+  <div class="modal-box">
+    <button class="close-x" data-close="refundFormOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow">Ajukan Refund</span>
+      <h3>Permintaan Refund</h3>
+    </div>
+    <input type="hidden" id="rfOrderId">
+    <p style="font-size:13px;color:#888;margin-bottom:20px;">Nomor Pesanan: <strong id="rfOrderIdLabel" style="color:var(--black);"></strong></p>
+    <div class="field">
+      <label>Alasan Refund</label>
+      <textarea id="rfReason" placeholder="Jelaskan alasan Anda mengajukan refund..."></textarea>
+      <div class="field-error">Alasan wajib diisi (minimal 10 karakter).</div>
+    </div>
+    <button class="btn btn-block" id="rfSubmitBtn">Kirim Permintaan Refund</button>
+  </div>
+</div>
+
+<!-- ================= CART PANEL ================= -->
+<div class="overlay" id="cartOverlay">
+  <div class="panel">
+    <button class="close-x" data-close="cartOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow">Tas Belanja</span>
+      <h3>Keranjang Anda</h3>
+    </div>
+    <div id="cartItemsContainer"></div>
+    <div id="cartSummaryContainer"></div>
+  </div>
+</div>
+
+<!-- ================= WISHLIST PANEL ================= -->
+<div class="overlay" id="wishOverlay">
+  <div class="panel">
+    <button class="close-x" data-close="wishOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow">Favorit Anda</span>
+      <h3>Wishlist</h3>
+    </div>
+    <div id="wishItemsContainer"></div>
+  </div>
+</div>
+
+<!-- ================= PRODUCT DETAIL MODAL ================= -->
+<div class="overlay center" id="productOverlay">
+  <div class="modal-box wide">
+    <button class="close-x" data-close="productOverlay">✕</button>
+    <div id="productDetailContent"></div>
+  </div>
+</div>
+
+<!-- ================= CHECKOUT MODAL ================= -->
+<div class="overlay center" id="checkoutOverlay">
+  <div class="modal-box wide" style="width:920px;">
+    <button class="close-x" data-close="checkoutOverlay">✕</button>
+    <div id="checkoutContent"></div>
+  </div>
+</div>
+
+<!-- ================= ORDERS PANEL ================= -->
+<div class="overlay center" id="ordersOverlay">
+  <div class="modal-box wide" style="width:760px;">
+    <button class="close-x" data-close="ordersOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow">Riwayat Belanja</span>
+      <h3>Pesanan Saya</h3>
+    </div>
+    <div id="ordersListContainer"></div>
+  </div>
+</div>
+
+<!-- ================= TRACK ORDER MODAL ================= -->
+<div class="overlay center" id="trackOverlay">
+  <div class="modal-box wide" style="width:600px;">
+    <button class="close-x" data-close="trackOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow">Lacak Pengiriman</span>
+      <h3>Lacak Pesanan</h3>
+    </div>
+    <div class="field">
+      <label>Masukkan Nomor Pesanan</label>
+      <input type="text" id="trackOrderInput" placeholder="Contoh: LUX12345678">
+    </div>
+    <button class="btn btn-block" id="trackSubmitBtn">Lacak Sekarang</button>
+    <div id="trackResultContainer" style="margin-top:24px;"></div>
+  </div>
+</div>
+
+<!-- ================= ORDER SUCCESS MODAL ================= -->
+<div class="overlay center" id="successOverlay">
+  <div class="modal-box" style="text-align:center;">
+    <button class="close-x" data-close="successOverlay">✕</button>
+    <div style="font-size:50px;margin-bottom:20px;color:#9C8048;">✓</div>
+    <h3 style="font-size:26px;margin-bottom:12px;">Pesanan Berhasil Dibuat</h3>
+    <p style="color:#888;font-size:14px;margin-bottom:8px;">Nomor pesanan Anda:</p>
+    <p id="successOrderId" style="font-family:'Cormorant Garamond',serif;font-size:24px;color:#9C8048;margin-bottom:24px;"></p>
+    <p style="color:#888;font-size:13px;margin-bottom:28px;">Simpan nomor ini untuk melacak status pengiriman pesanan Anda.</p>
+    <button class="btn btn-block" id="successCloseBtn">Selesai</button>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

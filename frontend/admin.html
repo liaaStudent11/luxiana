@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxiana Admin — Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-body">
+
+<!-- ================= ADMIN LOGIN ================= -->
+<div class="admin-login-wrap" id="adminLoginWrap">
+  <div class="admin-login-box">
+    <div class="logo">LUX<span style="color:#9C8048;">I</span>ANA</div>
+    <p class="sub-text">Admin Dashboard</p>
+    <div class="field">
+      <label>Email Admin</label>
+      <input type="email" id="adminEmailInput" placeholder="admin@gmail.com">
+      <div class="field-error" id="adminEmailError">Email admin tidak valid.</div>
+    </div>
+    <div class="field">
+      <label>Kata Sandi</label>
+      <input type="password" id="adminPasswordInput" placeholder="••••••••">
+      <div class="field-error" id="adminPasswordError">Kata sandi salah.</div>
+    </div>
+    <button class="btn btn-block" id="adminLoginBtn">Masuk ke Dashboard</button>
+    <p class="auth-note">Khusus untuk pengelola toko Luxiana.</p>
+  </div>
+</div>
+
+<!-- ================= ADMIN DASHBOARD ================= -->
+<div class="admin-shell hidden" id="adminShell">
+  <aside class="admin-sidebar">
+    <div class="admin-logo">LUX<span>I</span>ANA<div style="font-size:11px;letter-spacing:0.1em;color:#8A8373;margin-top:4px;">ADMIN PANEL</div></div>
+    <nav class="admin-nav">
+      <button class="active" data-page="dashboard">📊 &nbsp; Dashboard</button>
+      <button data-page="products">🧥 &nbsp; Kelola Produk</button>
+      <button data-page="orders">📦 &nbsp; Kelola Pesanan</button>
+      <button data-page="refunds">↩ &nbsp; Kelola Refund</button>
+      <button data-page="report">📈 &nbsp; Laporan Penjualan</button>
+      <button data-page="customers">👥 &nbsp; Pelanggan</button>
+      <button id="adminLogoutBtn" style="margin-top:30px;border-top:1px solid rgba(255,255,255,0.1);padding-top:20px;">↩ &nbsp; Keluar</button>
+    </nav>
+  </aside>
+
+  <main class="admin-main">
+    <!-- DASHBOARD PAGE -->
+    <section class="admin-page" id="page-dashboard">
+      <div class="admin-topbar">
+        <div>
+          <h2>Dashboard</h2>
+          <div class="sub">Ringkasan performa toko Luxiana</div>
+        </div>
+      </div>
+      <div class="kpi-grid" id="dashKpiGrid"></div>
+      <div class="admin-panel">
+        <h3>Pendapatan 7 Hari Terakhir</h3>
+        <div class="bar-chart" id="dashBarChart"></div>
+      </div>
+      <div class="admin-panel">
+        <h3>Pesanan Terbaru</h3>
+        <table class="data-table">
+          <thead><tr><th>ID Pesanan</th><th>Pelanggan</th><th>Total</th><th>Status</th><th>Tanggal</th></tr></thead>
+          <tbody id="dashRecentOrders"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- PRODUCTS PAGE -->
+    <section class="admin-page hidden" id="page-products">
+      <div class="admin-topbar">
+        <div>
+          <h2>Kelola Produk</h2>
+          <div class="sub">Tambah, ubah, atau hapus produk toko</div>
+        </div>
+        <button class="btn btn-gold" id="addProductBtn">+ Tambah Produk</button>
+      </div>
+      <div class="admin-panel">
+        <div class="search-input-wrap" style="margin-bottom:20px;">
+          <span class="si-icon">🔍</span>
+          <input type="text" id="productSearchInput" placeholder="Cari produk...">
+        </div>
+        <table class="data-table">
+          <thead><tr><th>Produk</th><th>Kategori</th><th>Harga</th><th>Diskon</th><th>Stok</th><th>Terjual</th><th>Aksi</th></tr></thead>
+          <tbody id="productsTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ORDERS PAGE -->
+    <section class="admin-page hidden" id="page-orders">
+      <div class="admin-topbar">
+        <div>
+          <h2>Kelola Pesanan</h2>
+          <div class="sub">Pantau dan perbarui status pesanan pelanggan</div>
+        </div>
+      </div>
+      <div class="admin-panel">
+        <div class="tab-row" id="orderStatusTabs" style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px;">
+          <button class="chip active tab-btn" data-status="all">Semua</button>
+          <button class="chip tab-btn" data-status="Pending">Pending</button>
+          <button class="chip tab-btn" data-status="Diproses">Diproses</button>
+          <button class="chip tab-btn" data-status="Dikirim">Dikirim</button>
+          <button class="chip tab-btn" data-status="Selesai">Selesai</button>
+          <button class="chip tab-btn" data-status="Dibatalkan">Dibatalkan</button>
+        </div>
+        <table class="data-table">
+          <thead><tr><th>ID Pesanan</th><th>Pelanggan</th><th>Item</th><th>Total</th><th>Pembayaran</th><th>Status</th><th>Aksi</th></tr></thead>
+          <tbody id="ordersTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- REFUNDS PAGE -->
+    <section class="admin-page hidden" id="page-refunds">
+      <div class="admin-topbar">
+        <div>
+          <h2>Kelola Refund</h2>
+          <div class="sub">Tinjau dan proses permintaan refund dari pelanggan</div>
+        </div>
+      </div>
+      <div class="admin-panel">
+        <table class="data-table">
+          <thead><tr><th>ID Refund</th><th>ID Pesanan</th><th>Pelanggan</th><th>Alasan</th><th>Jumlah</th><th>Status</th><th>Aksi</th></tr></thead>
+          <tbody id="refundsTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- REPORT PAGE -->
+    <section class="admin-page hidden" id="page-report">
+      <div class="admin-topbar">
+        <div>
+          <h2>Laporan Penjualan</h2>
+          <div class="sub">Analisis performa penjualan toko Luxiana</div>
+        </div>
+        <button class="btn btn-gold" id="exportReportBtn">⬇ Unduh CSV</button>
+      </div>
+      <div class="kpi-grid" id="reportKpiGrid"></div>
+      <div class="admin-panel">
+        <h3>Pendapatan 7 Hari Terakhir</h3>
+        <div class="bar-chart" id="reportBarChart"></div>
+      </div>
+      <div class="admin-panel">
+        <h3>Produk Terlaris</h3>
+        <table class="data-table">
+          <thead><tr><th>Produk</th><th>Jumlah Terjual</th><th>Pendapatan</th></tr></thead>
+          <tbody id="topProductsTable"></tbody>
+        </table>
+      </div>
+      <div class="admin-panel">
+        <h3>Pendapatan per Kategori</h3>
+        <table class="data-table">
+          <thead><tr><th>Kategori</th><th>Pendapatan</th></tr></thead>
+          <tbody id="categoryRevenueTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CUSTOMERS PAGE -->
+    <section class="admin-page hidden" id="page-customers">
+      <div class="admin-topbar">
+        <div>
+          <h2>Pelanggan</h2>
+          <div class="sub">Daftar pelanggan terdaftar di Luxiana</div>
+        </div>
+      </div>
+      <div class="admin-panel">
+        <table class="data-table">
+          <thead><tr><th>Email</th><th>Nama</th><th>Tanggal Bergabung</th><th>Jumlah Pesanan</th><th>Total Belanja</th></tr></thead>
+          <tbody id="customersTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- ================= PRODUCT FORM MODAL ================= -->
+<div class="overlay center" id="productFormOverlay">
+  <div class="modal-box wide">
+    <button class="close-x" data-close="productFormOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow" id="productFormEyebrow">Produk Baru</span>
+      <h3 id="productFormTitle">Tambah Produk Baru</h3>
+    </div>
+    <input type="hidden" id="pfId">
+    <div class="field-row">
+      <div class="field">
+        <label>Nama Produk</label>
+        <input type="text" id="pfName" placeholder="Contoh: Noir Cashmere Overcoat">
+        <div class="field-error">Nama produk minimal 2 karakter.</div>
+      </div>
+      <div class="field">
+        <label>Kategori</label>
+        <input type="text" id="pfCategory" placeholder="Contoh: Outerwear">
+        <div class="field-error">Kategori minimal 2 karakter.</div>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Harga Normal (Rp)</label>
+        <input type="text" id="pfPrice" inputmode="numeric" placeholder="Contoh: 24900000">
+        <div class="field-error">Harga harus lebih dari 0 dan maksimal Rp 1.000.000.000.</div>
+      </div>
+      <div class="field">
+        <label>Harga Coret (Opsional)</label>
+        <input type="text" id="pfOldPrice" inputmode="numeric" placeholder="Opsional">
+        <div class="field-error">Harga coret tidak valid.</div>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Stok</label>
+        <input type="text" id="pfStock" inputmode="numeric" placeholder="Contoh: 10">
+        <div class="field-error">Stok wajib diisi (angka, minimal 0).</div>
+      </div>
+      <div class="field">
+        <label>URL Gambar Produk</label>
+        <input type="text" id="pfImage" placeholder="Contoh: https://example.com/produk.jpg">
+        <div class="field-hint">Masukkan tautan gambar produk (format jpg/png/webp). Kosongkan untuk menggunakan gambar default.</div>
+      </div>
+    </div>
+    <div class="field">
+      <label>Ukuran (pisahkan dengan koma)</label>
+      <input type="text" id="pfSizes" placeholder="Contoh: S,M,L,XL">
+      <div class="field-hint">Gunakan "One Size" untuk produk tanpa variasi ukuran.</div>
+    </div>
+
+    <div class="field" style="background:#F7F4ED;border:1px solid var(--line);padding:16px;">
+      <label>Pilihan Warna Custom (pisahkan dengan koma)</label>
+      <input type="text" id="pfColors" placeholder="Contoh: Hitam, Navy, Abu Tua">
+      <div class="field-hint">Berlaku untuk kategori baju, celana/setelan, dan tas. Kosongkan jika produk tidak memiliki pilihan warna.</div>
+    </div>
+
+    <div class="field" style="background:#F7F4ED;border:1px solid var(--line);padding:16px;">
+      <label style="display:flex;align-items:center;gap:8px;font-weight:400;">
+        <input type="checkbox" id="pfAllowCustomSize" style="width:auto;">
+        Izinkan Pelanggan Memesan Ukuran Custom
+      </label>
+      <div class="field-row" style="margin-top:14px;">
+        <div class="field" style="margin-bottom:0;">
+          <label>Biaya Tambahan Custom Ukuran (Rp)</label>
+          <input type="text" id="pfCustomSizeFee" inputmode="numeric" placeholder="Contoh: 1500000">
+          <div class="field-hint">Biaya ekstra yang dibebankan ke pelanggan jika memilih ukuran custom.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="field" style="background:#F7F4ED;border:1px solid var(--line);padding:16px;">
+      <label>Diskon Produk (%)</label>
+      <input type="text" id="pfDiscountPercent" inputmode="numeric" placeholder="Contoh: 10">
+      <div class="field-hint">Maksimal diskon yang diperbolehkan adalah 80%. Isi 0 jika tidak ada diskon.</div>
+      <div class="field-error">Diskon harus berupa angka 0–80.</div>
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label>Material</label>
+        <input type="text" id="pfMaterial" placeholder="Contoh: 100% Cashmere">
+      </div>
+      <div class="field">
+        <label>Asal Produksi</label>
+        <input type="text" id="pfOrigin" placeholder="Contoh: Made in Italy">
+      </div>
+    </div>
+    <div class="field">
+      <label>Cara Perawatan</label>
+      <input type="text" id="pfCare" placeholder="Contoh: Dry Clean Only">
+    </div>
+    <div class="field">
+      <label>Deskripsi Produk</label>
+      <textarea id="pfDesc" placeholder="Deskripsikan keunggulan produk..."></textarea>
+      <div class="field-error">Deskripsi minimal 5 karakter.</div>
+    </div>
+    <div class="field">
+      <label style="display:flex;align-items:center;gap:8px;font-weight:400;">
+        <input type="checkbox" id="pfIsNew" style="width:auto;">
+        Tandai sebagai produk baru
+      </label>
+    </div>
+    <div class="field">
+      <label style="display:flex;align-items:center;gap:8px;font-weight:400;">
+        <input type="checkbox" id="pfIsLimited" style="width:auto;">
+        Tandai sebagai limited edition
+      </label>
+    </div>
+    <button class="btn btn-block" id="pfSaveBtn">Simpan Produk</button>
+  </div>
+</div>
+
+<!-- ================= CONFIRM DELETE MODAL ================= -->
+<div class="overlay center" id="confirmDeleteOverlay">
+  <div class="modal-box" style="text-align:center;">
+    <button class="close-x" data-close="confirmDeleteOverlay">✕</button>
+    <div style="font-size:40px;margin-bottom:16px;color:var(--error,#c0392b);">⚠</div>
+    <h3 style="font-size:22px;margin-bottom:12px;">Hapus Produk Ini?</h3>
+    <p style="color:#888;font-size:14px;margin-bottom:24px;">Tindakan ini tidak dapat dibatalkan. Produk akan dihapus secara permanen dari toko.</p>
+    <button class="btn btn-block" id="confirmDeleteBtn" style="background:var(--error,#c0392b);border-color:var(--error,#c0392b);">Ya, Hapus Produk</button>
+  </div>
+</div>
+
+<!-- ================= ORDER DETAIL MODAL ================= -->
+<div class="overlay center" id="orderDetailOverlay">
+  <div class="modal-box wide" style="width:760px;">
+    <button class="close-x" data-close="orderDetailOverlay">✕</button>
+    <div id="orderDetailContent"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
