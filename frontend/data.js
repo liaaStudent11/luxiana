@@ -67,7 +67,7 @@ const DEFAULT_PRODUCTS = [
   
     {
     id: 'P002', name: 'Luna Polka Dot Midi Dress', category: 'Dresses',
-    price: 3999000, oldPrice: 28900000, stock: 8, image: 'https://i.pinimg.com/736x/30/44/fd/3044fdc415390e205a81644027301a00.jpg',
+    price: 3999000, oldPrice: 28900000, stock: 8, image: '',
     desc: 'A timeless polka dot midi dress crafted from luxurious silk crepe. Designed with an elegant silhouette and refined details, it offers effortless sophistication for both daytime occasions and evening events.',
     sizes: ['S','M','L'], isNew: false, sold: 41,
     material: '100% Silk', origin: 'Made in Indonesia', care: 'Dry Clean Only',
@@ -76,7 +76,7 @@ const DEFAULT_PRODUCTS = [
   },
   {
     id: 'P003', name: 'Monroe Midi Dress', category: 'Dresses',
-    price: 32000000, oldPrice: null, stock: 6, image: 'https://i.pinimg.com/736x/30/44/fd/3044fdc415390e205a81644027301a00.jpg',
+    price: 32000000, oldPrice: null, stock: 6, image: '',
     desc: 'The Monroe Midi Dress is a timeless expression of elegance, crafted in a pristine white silhouette that embodies effortless sophistication. Designed with a flattering fit and refined tailoring, this dress offers both comfort and grace for formal occasions, intimate celebrations, or elegant daytime wear.',
     sizes: ['S','M','L'], isNew: true, sold: 17,
     material: 'Premium Crepe (95% Polyester, 5% Spandex)', origin: 'Made in Indonesia', care: 'Dry Clean Only',
@@ -85,7 +85,7 @@ const DEFAULT_PRODUCTS = [
   },
   {
     id: 'P004', name: 'Vesper Pearl Clutch', category: 'Bags',
-    price: 15750000, oldPrice: null, stock: 15, image: 'https://i.pinimg.com/736x/30/44/fd/3044fdc415390e205a81644027301a00.jpg',
+    price: 15750000, oldPrice: null, stock: 15, image: '',
     desc: 'Clutch satin dengan aplikasi mutiara air tawar asli, sempurna untuk acara formal malam.',
     sizes: ['One Size'], isNew: false, sold: 33,
     material: 'Silk Satin & Pearl', origin: 'Made in Italy', care: 'Spot Clean Only'

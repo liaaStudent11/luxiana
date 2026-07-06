@@ -46,19 +46,47 @@ router.post('/', async (req, res) => {
     }
 
     // Generate ID otomatis kalau belum ada (format: P013, P014, dst)
+    // PENTING: cari nomor ID TERTINGGI dari SEMUA produk yang ada,
+    // bukan cuma dari produk yang paling terakhir dibuat (createdAt).
+    // Sebelumnya pakai sort({createdAt:-1}) → bisa tabrakan kalau produk
+    // dengan nomor ID tertinggi bukan yang paling terakhir dibuat.
     if (!body.id) {
-      const lastProduct = await Product.findOne().sort({ createdAt: -1 });
-      let nextNum = 1;
-      if (lastProduct && lastProduct.id) {
-        const match = lastProduct.id.match(/\d+/);
-        nextNum = match ? parseInt(match[0]) + 1 : 1;
-      }
-      body.id = 'P' + String(nextNum).padStart(3, '0');
+      const allProducts = await Product.find({}, { id: 1 });
+      let maxNum = 0;
+      allProducts.forEach(p => {
+        const match = p.id && p.id.match(/\d+/);
+        if (match) {
+          const num = parseInt(match[0], 10);
+          if (num > maxNum) maxNum = num;
+        }
+      });
+      body.id = 'P' + String(maxNum + 1).padStart(3, '0');
     }
 
-    const newProduct = new Product(body);
-    await newProduct.save();
-    res.status(201).json(newProduct);
+    // Retry sekali kalau tetap kena duplicate key (jaga-jaga race condition,
+    // misal 2 request submit hampir bersamaan).
+    try {
+      const newProduct = new Product(body);
+      await newProduct.save();
+      return res.status(201).json(newProduct);
+    } catch (err) {
+      if (err.code === 11000 && !req.body.id) {
+        const retryProducts = await Product.find({}, { id: 1 });
+        let retryMax = 0;
+        retryProducts.forEach(p => {
+          const match = p.id && p.id.match(/\d+/);
+          if (match) {
+            const num = parseInt(match[0], 10);
+            if (num > retryMax) retryMax = num;
+          }
+        });
+        body.id = 'P' + String(retryMax + 1).padStart(3, '0');
+        const retryProduct = new Product(body);
+        await retryProduct.save();
+        return res.status(201).json(retryProduct);
+      }
+      throw err;
+    }
   } catch (err) {
     if (err.code === 11000) {
       return res.status(400).json({ error: 'ID produk sudah dipakai.' });
