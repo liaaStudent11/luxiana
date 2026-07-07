@@ -291,6 +291,32 @@ function bindGlobalEvents() {
     openOrdersPanel();
   });
 
+  // Link footer: Pesanan Saya (sama seperti di navigasi atas)
+  document.getElementById('footerOrdersLink').addEventListener('click', (e) => {
+    e.preventDefault();
+    openOrdersPanel();
+  });
+  // Link footer: Lacak Pesanan
+  document.getElementById('footerTrackLink').addEventListener('click', (e) => {
+    e.preventDefault();
+    openModal('trackOverlay');
+  });
+  // Link footer: Panduan Ukuran
+  document.getElementById('footerSizeGuideLink').addEventListener('click', (e) => {
+    e.preventDefault();
+    openModal('sizeGuideOverlay');
+  });
+  // Link footer: Kebijakan Retur
+  document.getElementById('footerReturnPolicyLink').addEventListener('click', (e) => {
+    e.preventDefault();
+    openModal('returnPolicyOverlay');
+  });
+  // Link footer: Hubungi Kami
+  document.getElementById('footerContactLink').addEventListener('click', (e) => {
+    e.preventDefault();
+    openModal('contactOverlay');
+  });
+
   // Pindahkan garis aktif (underline emas) ke menu navigasi yang baru diklik
   document.querySelectorAll('.nav-links a[href^="#"]').forEach(link => {
     if (link.id === 'navOrdersLink') return;
@@ -895,7 +921,7 @@ function openProductDetail(productId) {
         <div class="field" style="max-width:280px;">
           <label>Pilih Warna</label>
           <div class="pd-size-list" id="pdColorList">
-            ${p.colors.map(c => `<div class="size-opt ${c === selectedColor ? 'active' : ''}" data-color="${c}">${c}</div>`).join('')}
+            ${p.colors.map(c => `<div class="color-opt ${c === selectedColor ? 'active' : ''}" data-color="${c}">${c}</div>`).join('')}
           </div>
         </div>` : ''}
 
@@ -953,9 +979,9 @@ function bindProductDetailEvents(p) {
 
   const colorList = document.getElementById('pdColorList');
   if (colorList) {
-    colorList.querySelectorAll('.size-opt').forEach(opt => {
+    colorList.querySelectorAll('.color-opt').forEach(opt => {
       opt.addEventListener('click', () => {
-        colorList.querySelectorAll('.size-opt').forEach(o => o.classList.remove('active'));
+        colorList.querySelectorAll('.color-opt').forEach(o => o.classList.remove('active'));
         opt.classList.add('active');
         selectedColor = opt.dataset.color;
       });

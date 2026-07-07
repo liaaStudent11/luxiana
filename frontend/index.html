@@ -68,7 +68,6 @@
   </div>
 </section>
 
-
 <!-- PRODUCT COLLECTION -->
 <section class="section" id="collection">
   <div class="container">
@@ -170,19 +169,19 @@
     <div class="footer-col">
       <h5>Navigasi</h5>
       <ul>
-        <li>Beranda</li>
-        <li>Koleksi</li>
-        <li>Tentang Kami</li>
-        <li>Pesanan Saya</li>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#collection">Koleksi</a></li>
+        <li><a href="#about">Tentang Kami</a></li>
+        <li><a href="#" id="footerOrdersLink">Pesanan Saya</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <h5>Layanan</h5>
       <ul>
-        <li>Lacak Pesanan</li>
-        <li>Panduan Ukuran</li>
-        <li>Kebijakan Retur</li>
-        <li>Hubungi Kami</li>
+        <li><a href="#" id="footerTrackLink">Lacak Pesanan</a></li>
+        <li><a href="#" id="footerSizeGuideLink">Panduan Ukuran</a></li>
+        <li><a href="#" id="footerReturnPolicyLink">Kebijakan Retur</a></li>
+        <li><a href="#" id="footerContactLink">Hubungi Kami</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -485,5 +484,60 @@
 
 <script src="data.js"></script>
 <script src="app.js"></script>
+<!-- ================= SIZE GUIDE MODAL ================= -->
+<div class="overlay center" id="sizeGuideOverlay">
+  <div class="modal-box wide" style="width:600px;">
+    <button class="close-x" data-close="sizeGuideOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow">Referensi Ukuran</span>
+      <h3>Panduan Ukuran</h3>
+    </div>
+    <table class="data-table" style="width:100%;">
+      <thead><tr><th>Ukuran</th><th>Lingkar Dada (cm)</th><th>Lingkar Pinggang (cm)</th><th>Panjang (cm)</th></tr></thead>
+      <tbody>
+        <tr><td>XS</td><td>82–86</td><td>62–66</td><td>60</td></tr>
+        <tr><td>S</td><td>86–90</td><td>66–70</td><td>62</td></tr>
+        <tr><td>M</td><td>90–94</td><td>70–74</td><td>64</td></tr>
+        <tr><td>L</td><td>94–98</td><td>74–78</td><td>66</td></tr>
+        <tr><td>XL</td><td>98–104</td><td>78–84</td><td>68</td></tr>
+      </tbody>
+    </table>
+    <p style="color:#888;font-size:13px;margin-top:16px;">Ukuran dapat bervariasi ±2cm tergantung model produk. Jika ragu, silakan hubungi kami sebelum memesan.</p>
+  </div>
+</div>
+
+<!-- ================= RETURN POLICY MODAL ================= -->
+<div class="overlay center" id="returnPolicyOverlay">
+  <div class="modal-box wide" style="width:600px;">
+    <button class="close-x" data-close="returnPolicyOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow">Ketentuan Layanan</span>
+      <h3>Kebijakan Retur</h3>
+    </div>
+    <div style="color:var(--charcoal);font-size:14px;line-height:1.8;">
+      <p><strong>1. Masa Retur</strong><br>Retur dapat diajukan maksimal 7 hari setelah barang diterima.</p>
+      <p><strong>2. Syarat Barang</strong><br>Barang harus dalam kondisi belum dipakai, label masih terpasang, dan disertai bukti pembelian.</p>
+      <p><strong>3. Barang Custom</strong><br>Produk dengan ukuran custom tidak dapat diretur, kecuali terdapat cacat produksi.</p>
+      <p><strong>4. Proses Refund</strong><br>Dana akan dikembalikan dalam 3–7 hari kerja setelah barang retur diverifikasi.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ================= CONTACT MODAL ================= -->
+<div class="overlay center" id="contactOverlay">
+  <div class="modal-box" style="text-align:left;">
+    <button class="close-x" data-close="contactOverlay">✕</button>
+    <div class="panel-header">
+      <span class="eyebrow">Kami Siap Membantu</span>
+      <h3>Hubungi Kami</h3>
+    </div>
+    <div style="color:var(--charcoal);font-size:14px;line-height:2;">
+      <p>📍 Jl. Senopati No. 88, Jakarta Selatan</p>
+      <p>📞 +62 811 8888 999</p>
+      <p>✉️ care@luxiana.com</p>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
