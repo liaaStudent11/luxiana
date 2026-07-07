@@ -167,7 +167,7 @@ luxInit();
 /* ---------- Product Helpers (sekarang bersumber dari database via API) ---------- */
 /* ⚙️ SATU-SATUNYA BARIS YANG PERLU DIGANTI KALAU BACKEND SUDAH DI-DEPLOY ONLINE.
    Contoh setelah deploy ke Render: 'https://luxiana-backend.onrender.com' */
-const LUX_API_ORIGIN = 'https://luxianabackend-40flq7gk.b4a.run';
+const LUX_API_ORIGIN = 'https://luxianabackend-3g1nykbp.b4a.run';
 
 const PRODUCTS_API_URL = `${LUX_API_ORIGIN}/api/products`;
 let productsCache = [];
