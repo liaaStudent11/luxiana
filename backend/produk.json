@@ -1,0 +1,2141 @@
+[
+  {
+    "id": "P002",
+    "name": "Monochrome Polka Dress",
+    "category": "Dresses",
+    "price": 2699000,
+    "oldPrice": null,
+    "stock": 8,
+    "image": "https://i.pinimg.com/736x/d0/96/99/d09699fb2cbfcde5255a44761cfd2b93.jpg",
+    "desc": "A timeless halter mini dress featuring a classic polka dot print and a flattering fit-and-flare silhouette. Designed for effortless elegance, it's perfect for brunch dates, vacations, garden parties, and daytime occasions.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isNew": true,
+    "sold": 41,
+    "material": "Premium Cotton Blend",
+    "origin": "Made in Indonesia",
+    "care": "Machine wash on a gentle cycle with cold water",
+    "colors": [
+      "White with black Polka Dots"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 10,
+    "isLimited": false
+  },
+  {
+    "id": "P003",
+    "name": "Burgundy Elegance Cape Gown",
+    "category": "Dresses",
+    "price": 3499000,
+    "oldPrice": null,
+    "stock": 6,
+    "image": "https://i.pinimg.com/vwebpf/736x/c2/06/29/c2062915adb98c5c5060d15740d7ccbf.webp",
+    "desc": "Designed with a sophisticated high neckline and an elegant flowing cape, the Burgundy elegance cape gown embodies timeless luxury, its sleek silhouette and rich burgundy hue make it the perfect choice for galas, wedding, and exclusive evening occasions.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isNew": true,
+    "sold": 17,
+    "material": "Premium Crepe (95% Polyester, 5% Spandex)",
+    "origin": "Made in Indonesia",
+    "care": "Hand wash ini cold water",
+    "colors": [
+      "Black",
+      "White",
+      "Burgundy"
+    ],
+    "allowCustomSize": true,
+    "customSizeFee": 1500000,
+    "discountPercent": 0,
+    "isLimited": false
+  },
+  {
+    "id": "P004",
+    "name": "Midnight Noir Gown",
+    "category": "Dresses",
+    "price": 3199000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/736x/5c/de/7e/5cde7e727cc69098ec1db9ce238948b3.webp",
+    "desc": "Elegantly crafted with a striking cross-halter neckline and a sleek silhouette, this luxurious gown combines timeless sophistication with modern glamour. Perfect for galas, weddings, and formal evening events.",
+    "sizes": [
+      "One Size"
+    ],
+    "isNew": true,
+    "sold": 33,
+    "material": "Premium satin Crepe",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash in cold water",
+    "colors": [
+      "Midnight Black & Champagne"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "isLimited": true
+  },
+  {
+    "id": "P005",
+    "name": "Luxera Evening Gown",
+    "category": "Dresses",
+    "price": 4899000,
+    "oldPrice": 14500000,
+    "stock": 20,
+    "image": "https://i.pinimg.com/vwebpf/1200x/6d/bf/5b/6dbf5b67c60ac72b3d9b5a2079f73c51.webp",
+    "desc": "Elegant dress crafted from a breathable linen-cotton blend. Featuring a clean silhouette and relaxed fit, perfect for warm-weather styling with effortless sophistication.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isNew": false,
+    "sold": 56,
+    "material": "Satin & Crystal",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "colors": [
+      "white",
+      "burgundy",
+      "black"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 15,
+    "isLimited": false
+  },
+  {
+    "id": "P006",
+    "name": "Ivory Grace Halter Mini Dress",
+    "category": "Dresses",
+    "price": 3599000,
+    "oldPrice": null,
+    "stock": 18,
+    "image": "https://i.pinimg.com/736x/b3/db/2b/b3db2bf2f9a083564be1369373a27f3c.jpg",
+    "desc": "Designed with a graceful halter neckline and a softly pleated silhouette, the Ivory Grace Halter Mini Dress embodies effortless elegance. Perfect for romantic dinners, cocktail parties, vacations, and special evening occasions.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isNew": false,
+    "sold": 29,
+    "material": "Premium Chiffon Blend",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash in cold water",
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "isLimited": false
+  },
+  {
+    "id": "P007",
+    "name": "Ivory Bloom Textured Mini Dress",
+    "category": "Dresses",
+    "price": 3299000,
+    "oldPrice": null,
+    "stock": 5,
+    "image": "https://i.pinimg.com/vwebpf/1200x/a1/69/5f/a1695f8e3efa69a13cfe169df8732ad8.webp",
+    "desc": "Crafted with delicate textured fabric and floral accents, the Ivory Bloom Textured Mini Dress exudes refined elegance. Its flattering silhouette and sophisticated design make it perfect for bridal showers, garden parties, and exclusive daytime events.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "isNew": false,
+    "sold": 9,
+    "material": "Premium Textured Tweed",
+    "origin": "Made In Indonesia",
+    "care": "Dry Clean Recommended",
+    "colors": [
+      "Emerald",
+      "Hitam",
+      "Champagne"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "isLimited": false
+  },
+  {
+    "id": "P008",
+    "name": "Noir Cowl Mini Dress",
+    "category": "Dresses",
+    "price": 2399000,
+    "oldPrice": null,
+    "stock": 22,
+    "image": "https://i.pinimg.com/1200x/02/7c/84/027c843d41b841909b2f4e44356924d7.jpg",
+    "desc": "A sleek mini dress featuring a graceful cowl neckline and a modern open-back design. Crafted for effortless sophistication, it's the perfect choice for cocktail parties, date nights, and evening events.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isNew": false,
+    "sold": 48,
+    "material": "Premium satin crepe",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash in cold water",
+    "colors": [
+      "Black"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "isLimited": false
+  },
+  {
+    "id": "P009",
+    "name": "Ivory Luxe Blazer Dress",
+    "category": "Dresses",
+    "price": 2799000,
+    "oldPrice": null,
+    "stock": 10,
+    "image": "https://i.pinimg.com/vwebpf/1200x/0b/11/94/0b1194fa81c4df262c43d6cbe3a74e4b.webp",
+    "desc": "Tailored with a sophisticated blazer-inspired silhouette and statement puff sleeves, the Ivory Luxe Blazer Dress blends modern elegance with timeless refinement. Perfect for cocktail parties, bridal events, and upscale occasions.",
+    "sizes": [
+      "One Size"
+    ],
+    "isNew": false,
+    "sold": 14,
+    "material": "Premium Crepe",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "colors": [
+      "Ivory",
+      "Black"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "isLimited": false
+  },
+  {
+    "id": "P010",
+    "name": "Champagne Cape Satin Gown",
+    "category": "Dresses",
+    "price": 4899000,
+    "oldPrice": null,
+    "stock": 4,
+    "image": "https://i.pinimg.com/736x/13/1c/75/131c75e9eb6275de0d7f253f1ac14eca.jpg",
+    "desc": "A luxurious satin gown featuring a graceful draped neckline and dramatic cape detail. Designed to make a lasting impression at every elegant occasion.",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "isNew": false,
+    "sold": 6,
+    "isLimited": false,
+    "material": "Premium Luxe Satin",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash in Cold water",
+    "colors": [
+      "Champagne"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0
+  },
+  {
+    "id": "P011",
+    "name": "Ice Blue Satin Dress",
+    "category": "Dresses",
+    "price": 2899000,
+    "oldPrice": null,
+    "stock": 8,
+    "image": "https://i.pinimg.com/736x/1a/ab/68/1aab68c31cfe7051ed2a75b999f742b8.jpg",
+    "desc": "Crafted from luxurious satin with a silky finish, this figure-skimming silhouette features a sophisticated high-neck halter design that beautifully accentuates the shoulders.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "isNew": false,
+    "sold": 20,
+    "material": "Premium Satin Polyester",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash in cold water or use a delicate machine cycle.",
+    "colors": [
+      "Ice Blue"
+    ],
+    "allowCustomSize": true,
+    "customSizeFee": 2000000,
+    "discountPercent": 0,
+    "isLimited": true
+  },
+  {
+    "id": "P577391",
+    "sold": 0,
+    "name": "Noir Sculpt Halter Top",
+    "category": "Top",
+    "price": 1899000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/736x/2d/22/02/2d22020329b2947cd7f876b83356e4b3.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "74% Triacetate, 20% Polyester, 6% Elastane",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "Discover Luxiana's Noir Sculpt Halter Top, crafted from premium stretch crepe with a flattering halter neckline and tailored silhouette for modern luxury dressing.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P633043",
+    "sold": 0,
+    "name": "Ivory Ruched Elegance Top",
+    "category": "Top",
+    "price": 1699000,
+    "oldPrice": null,
+    "stock": 14,
+    "image": "https://i.pinimg.com/736x/2c/17/18/2c1718a448cdc8bacc4b3791a9b9cc37.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ivory"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Stretch Jersey",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash cold, Do not bleach",
+    "desc": "Elevate your wardrobe with Luxiana's Ivory Ruched Elegance Top, crafted from premium stretch jersey with refined ruching and a flattering minimalist silhouette.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P677755",
+    "sold": 0,
+    "name": "Ivory One-Shoulder Satin Top",
+    "category": "Top",
+    "price": 1599000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/06/8e/44/068e44d5e821d92e32d29593047fdbb1.jpg",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Satin",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash with cold water",
+    "desc": "Crafted from luxurious satin with a graceful one-shoulder neckline, the Ivory One-Shoulder Satin Top offers timeless elegance and modern sophistication. Perfect for dinner parties, formal occasions, and elevated everyday styling.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P745881",
+    "sold": 0,
+    "name": "Midnight Silk Halter Top",
+    "category": "Top",
+    "price": 1499000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/dc/5c/84/dc5c843a0b948a137d29d3c53da99702.jpg",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "85% Silk, 15% Polyester",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "Discover Luxiana's Midnight Silk Halter Top, crafted from premium silk satin with a graceful gathered neckline and elegant draped silhouette for sophisticated evening dressing.",
+    "isNew": true,
+    "isLimited": false
+  },
+  {
+    "id": "P791309",
+    "sold": 0,
+    "name": "Ivory Sculpted Mandarin Top",
+    "category": "Top",
+    "price": 1599000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/ad/5e/b1/ad5eb1ceb1105131e6a210fdab5fc9ba.jpg",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Ivory"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Silk Blend Satin",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "A timeless ivory satin top featuring a sculpted silhouette, mandarin collar, and elegant keyhole neckline. Designed for effortless sophistication from work to evening occasions.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P840497",
+    "sold": 0,
+    "name": "Ivory Draped Contour Top",
+    "category": "Top",
+    "price": 1799000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/f1/9a/90/f19a9063ffc345f5d7e6a260c83069d0.jpg",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "68% Triacetate, 32% Polyester",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "A sophisticated ivory draped top featuring a sculpted waist, elegant high neckline, and signature contrast piping for a timeless modern look.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P884481",
+    "sold": 0,
+    "name": "Noir Belted Drape Top",
+    "category": "Top",
+    "price": 1899000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/e7/cc/dd/e7ccddc4aecdc282bd9f621868b5a140.jpg",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Crepe",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "An elegant belted drape top featuring a relaxed silhouette with cap sleeves and a defined waist tie. Crafted from premium crepe fabric, it offers effortless sophistication for both workwear and evening occasions.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P920759",
+    "sold": 0,
+    "name": "Noir Layered Knit Top",
+    "category": "Top",
+    "price": 1699000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/a5/0f/ed/a50fed25c1f5f81524bfa48df8b2560e.jpg",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Viscose Knit & Cotton Poplin",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash cold or machine wash on a gentle cycle. Do not bleach. Lay flat to dry. Iron on low heat if needed.",
+    "desc": "A modern layered knit top featuring a crisp collared shirt detail and a flattering fitted silhouette. Designed for effortless sophistication, perfect for both office wear and smart casual styling.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P958173",
+    "sold": 0,
+    "name": "Ivory Draped Halter Top",
+    "category": "Top",
+    "price": 1799000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/1200x/ca/5d/a6/ca5da65e6d4be467af0a28ae08e8caa2.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ivory",
+      "Black",
+      "Mocha"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Satin Crepe",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash cold or machine wash on a gentle cycle. Do not bleach. Steam or iron on low heat.",
+    "desc": "A sophisticated halter top featuring an elegant draped silhouette and asymmetric hem. Crafted from premium satin crepe for a fluid, graceful look that transitions effortlessly from day to evening.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P003717",
+    "sold": 0,
+    "name": "Ivory Mock Neck Top",
+    "category": "Top",
+    "price": 1399000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/0e/4f/a2/0e4fa2291371742a2c06557ef515f3c5.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ivory",
+      "Mahogany"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Stretch Knit",
+    "origin": "Made In Indonesia",
+    "care": "Hand wash cold or machine wash on a gentle cycle. Do not bleach. Hang to dry.",
+    "desc": "A sleek sleeveless top with a refined high neckline and a flattering slim fit. Crafted from soft stretch knit fabric, it offers effortless elegance for both casual and formal occasions.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P122439",
+    "sold": 0,
+    "name": "Slate Wide-Leg Trousers",
+    "category": "Pants",
+    "price": 1999000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/35/72/59/3572599dabe3558aed85c073a9060e6f.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Charcoal Grey"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "68% Polyester, 28% Rayon, 4% Spandex",
+    "origin": "Made In Indonesia",
+    "care": "Machine wash cold. Hang dry. Warm iron if needed.",
+    "desc": "Elegant charcoal wide-leg trousers with a flattering high-rise waist and fluid drape. Designed for effortless sophistication, perfect for office wear, formal occasions, or elevated everyday styling.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P178293",
+    "sold": 0,
+    "name": "Noir Tailored Straight-Leg Trousers",
+    "category": "Pants",
+    "price": 1899000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/1200x/a2/b6/4e/a2b64e3cf80708ab22861c18f52de4cc.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ivory"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "72% Polyester 24% Viscose 4% Elastane",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "Classic black tailored trousers featuring a high-waisted straight-leg silhouette, crafted from premium stretch suiting for timeless sophistication.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P243233",
+    "sold": 0,
+    "name": "Charcoal Pinstripe Palazzo Trousers",
+    "category": "Pants",
+    "price": 2099000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/1200x/47/c9/f3/47c9f3ae2d58dfb5738845a9f3e3294d.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Charcoal Pinstripe"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "70% Polyester 28% Viscose 2% Elastane",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "Tailored charcoal pinstripe palazzo trousers featuring a high-waisted silhouette and fluid wide-leg design for timeless sophistication.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P276629",
+    "sold": 0,
+    "name": "Ivory Wide-Leg Denim Trousers",
+    "category": "Pants",
+    "price": 1799000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/a5/0d/40/a50d407f9c38e56a2dd95b2f591b1cea.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ivory"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "99% Cotton 1% Elastane",
+    "origin": "Made In Indonesia",
+    "care": "Machine wash cold inside out",
+    "desc": "Premium ivory denim trousers featuring a flattering high-rise waist and elegant wide-leg silhouette for effortless everyday sophistication.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P313791",
+    "sold": 0,
+    "name": "Ivory Tailored Wide-Leg Trousers",
+    "category": "Pants",
+    "price": 1999000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/cb/d6/a5/cbd6a508e50f9122e040e0341dd47bde.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ivory"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "55% Linen 42% Viscose 3% Elastane",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "Timeless ivory tailored trousers with a high-waisted wide-leg silhouette, crafted from premium linen-blend suiting for refined everyday elegance.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P347801",
+    "sold": 0,
+    "name": "Indigo Flared Denim Jeans",
+    "category": "Pants",
+    "price": 1699000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/36/9d/dc/369ddcd2c4b12e76f0f0a95f6b601e3d.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Dark Indigo"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "8% Cotton 2% Elastane",
+    "origin": "Made In Indonesia",
+    "care": "Machine wash cold inside out",
+    "desc": "Premium dark indigo flared jeans featuring a high-rise waist and flattering silhouette, designed for effortless everyday sophistication.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P386703",
+    "sold": 0,
+    "name": "Ivory Flared Denim Jeans",
+    "category": "Pants",
+    "price": 1699000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/be/e0/64/bee064277492ef7df8316c2f09d0ce7a.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ivory"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "98% Cotton 2% Elastane",
+    "origin": "Made In Indonesia",
+    "care": "Machine wash cold inside out",
+    "desc": "Elegant ivory flared jeans crafted from premium stretch denim with a flattering high-rise fit and timeless silhouette.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P440142",
+    "sold": 0,
+    "name": "Sky Straight-Leg Jeans",
+    "category": "Pants",
+    "price": 1699000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/736x/83/be/54/83be54ef69faf65e0e2a1e00113525aa.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "99% Cotton, 1% Elastane",
+    "origin": "Made In Indonesia",
+    "care": "Machine wash cold inside out. Do not bleach. Tumble dry low.",
+    "desc": "Classic light-wash straight-leg jeans crafted from premium stretch denim for all-day comfort. Designed with a timeless silhouette that pairs effortlessly with both casual and elevated looks.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P475635",
+    "sold": 0,
+    "name": "Midnight Wide-Leg Denim",
+    "category": "Pants",
+    "price": 1899000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/1b/f7/b0/1bf7b0d6c522a5e31d8930d9c76235e2.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "98% Cotton, 2% Elastane",
+    "origin": "Made In Indonesia",
+    "care": "Machine wash cold inside out. Wash with similar colors. Do not bleach.",
+    "desc": "Premium dark indigo wide-leg denim featuring a flattering high-rise waist and structured silhouette. Crafted for everyday comfort while delivering a refined, timeless look suitable for both casual and smart styling.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P516335",
+    "sold": 0,
+    "name": "Ivory Tailored Shorts",
+    "category": "Pants",
+    "price": 1399000,
+    "oldPrice": null,
+    "stock": 10,
+    "image": "https://i.pinimg.com/736x/d8/3c/8b/d83c8b3d90cac6f3f6570866ed972d55.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "55% Linen, 45% Cotton",
+    "origin": "Made In Indonesia",
+    "care": "Machine wash cold. Hang dry. Warm iron if needed.",
+    "desc": "Elegant high-waisted tailored shorts crafted from a breathable linen-cotton blend. Featuring a clean silhouette and relaxed fit, perfect for warm-weather styling with effortless sophistication.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P822535",
+    "sold": 0,
+    "name": "Ivory Double-Breasted Blazer",
+    "category": "Blazer",
+    "price": 2499000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/0c/71/c9/0c71c98c7e69c30862a14014a61ba806.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "95% Polyester 5% Spandex",
+    "origin": "Made in Indonesia",
+    "care": "Dry clean recommended. Steam or iron on low heat.",
+    "desc": "Sophisticated ivory double-breasted blazer with a tailored silhouette, structured shoulders, and elegant peak lapels. Designed to elevate both professional and smart-casual looks with timeless versatility.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P998021",
+    "sold": 0,
+    "name": "Mocha Tailored Blazer",
+    "category": "Blazer",
+    "price": 2699000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/c7/67/08/c76708463562c9d1a2169fe090dccdca.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "70% Polyester 25% Rayon 5% Spandex",
+    "origin": "Made in Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "Elegant mocha tailored blazer featuring a structured silhouette, sharp lapels, and a flattering single-button closure. Crafted to bring timeless sophistication to office wear and elevated everyday styling.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P128427",
+    "sold": 0,
+    "name": "Burgundy Sculpted Blazer",
+    "category": "Blazer",
+    "price": 2799000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/ac/47/d9/ac47d910d78b91ec670f2fae75b48b8c.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "68% Polyester 28% Rayon 4% Spandex",
+    "origin": "Made in Indonesia",
+    "care": "Dry clean recommended. Steam or iron on low heat.",
+    "desc": "Statement burgundy blazer featuring a sculpted tailored fit, structured shoulders, and elegant peak lapels. Designed to deliver a refined silhouette with modern sophistication for both formal and evening occasions.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P225813",
+    "sold": 0,
+    "name": "Noir Relaxed Blazer",
+    "category": "Blazer",
+    "price": 2599000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/6b/92/1a/6b921a47d96636206e56b1e574dc5fba.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "70% Polyester 25% Rayon 5% Spandex",
+    "origin": "Made in Indonesia",
+    "care": "Dry clean recommended. Steam or iron on low heat.",
+    "desc": "Timeless black relaxed blazer crafted with a softly structured silhouette and refined tailoring. Designed for effortless layering, delivering understated elegance from workdays to evening occasions.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P317415",
+    "sold": 0,
+    "name": "Noir Sculpted Waist Blazer",
+    "category": "Blazer",
+    "price": 2899000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/736x/8b/99/81/8b9981cc8b6100b5e06b23d9913c8efb.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "92% Polyester 8% Elastane",
+    "origin": "Made in Indonesia",
+    "care": "Dry clean recommended or hand wash cold. Do not bleach. Steam on low heat.",
+    "desc": "Elegant black blazer with a sculpted waist and structured tailoring, designed to create a refined feminine silhouette. Features a single-button closure and sharp lapels, making it perfect for formal occasions, office wear, or sophisticated evening styling.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P653718",
+    "sold": 0,
+    "name": "Slate Relaxed Blazer",
+    "category": "Blazer",
+    "price": 2599000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/736x/70/1e/4c/701e4cd971ad5825a6d7fa7d69664eee.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Suiting Polyester Blend",
+    "origin": "Made in Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "A relaxed-fit blazer tailored with clean lines and a modern silhouette. Designed with a single-button closure, structured shoulders, and functional front pockets, this versatile piece transitions effortlessly from office wear to elevated everyday styling. Crafted from a smooth stretch fabric for all-day comfort.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P859202",
+    "sold": 0,
+    "name": "Noir Double-Breasted Blazer",
+    "category": "Blazer",
+    "price": 2699000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/6a/10/c0/6a10c082213de42064892c0152cd0829.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "68% Polyester, 28% Rayon, 4% Spandex",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "A sophisticated double-breasted blazer designed with sharp tailoring and a flattering, elongated silhouette. Featuring structured shoulders, peak lapels, and a streamlined fit, this timeless piece is perfect for power dressing, formal occasions, or elevated everyday styling. Crafted from premium stretch suiting fabric for comfort and a polished finish.",
+    "isNew": true,
+    "isLimited": true
+  },
+  {
+    "id": "P973519",
+    "sold": 0,
+    "name": "Noir Pinstripe Blazer",
+    "category": "Blazer",
+    "price": 2699000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/1200x/93/73/4f/93734f57a0c0d40d247f72d131d68b78.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir Pinstripe",
+      "Ivory"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "67% Polyester, 29% Rayon, 4% Spandex",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "A timeless pinstripe blazer tailored with a structured silhouette and refined details. Featuring a single-breasted design, classic notch lapels, and functional flap pockets, this versatile piece delivers effortless sophistication for work, business meetings, or elevated everyday wear. Crafted from premium stretch suiting fabric for comfort and a polished finish.",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P124689",
+    "sold": 0,
+    "name": "Noir Contrast Lapel Blazer",
+    "category": "Blazer",
+    "price": 2899000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/87/40/dc/8740dcf08262a5bd5f332a390e4df1ad.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Ivory"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Suiting Blend (Polyester, Rayon & Spandex)",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "A statement tailored blazer featuring a striking contrast ivory lapel and cuff detailing. Designed with a structured silhouette, single-button closure, and premium suiting fabric for a refined, contemporary look.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P256187",
+    "sold": 0,
+    "name": "Noir Executive Blazer",
+    "category": "Blazer",
+    "price": 2699000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/vwebpf/736x/8a/8c/37/8a8c37360f3ff8a9836b2ce98fa7f63b.webp",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "68% Polyester, 28% Rayon, 4% Spandex",
+    "origin": "Made In Indonesia",
+    "care": "Dry clean recommended",
+    "desc": "Featuring structured shoulders, peak lapels, and a streamlined fit, this timeless piece is perfect for power dressing, formal occasions, or elevated everyday styling.",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P885008",
+    "sold": 0,
+    "name": "Auréa Layered Gold Jewelry Set",
+    "category": "Jewelry",
+    "price": 489000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/42/fd/cd/42fdcd41b8214fd3b04fe3f2f058fd81.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "18K Gold Plated Stainless Steel",
+    "origin": "Made In Indonesia",
+    "care": "Avoid direct contact with perfumes, lotions, and harsh chemicals.",
+    "desc": "Elevate your everyday style with the Auréa Layered Gold Jewelry Set, a timeless collection featuring elegant hoop earrings, layered necklaces, minimalist rings, and a sleek bracelet.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P056099",
+    "sold": 0,
+    "name": "Élan Sculptural Jewelry Set",
+    "category": "Jewelry",
+    "price": 599000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/47/74/27/477427997a9efa936a4fa3ea306e70dc.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium 18K Gold Plated Stainless Steel",
+    "origin": "",
+    "care": "Avoid contact with perfumes, lotions, and harsh chemicals.",
+    "desc": "The Élan Sculptural Jewelry Set embodies modern elegance with its bold, fluid silhouette and polished gold finish. Featuring a sculptural choker necklace, statement earrings, an artistic ring, and a matching cuff bracelet.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P207063",
+    "sold": 0,
+    "name": "Diamond Cascade Necklace",
+    "category": "Jewelry",
+    "price": 1899000,
+    "oldPrice": null,
+    "stock": 3,
+    "image": "https://i.pinimg.com/1200x/25/0a/a1/250aa1190779950afac5438f9f2f6ff8.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Silver"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Cubic Zirconia",
+    "origin": "Made In Indonesia",
+    "care": "Remove before showering, swimming, or exercising.",
+    "desc": "The Celestia Diamond Cascade Necklace is designed to capture timeless elegance with its brilliant waterfall silhouette.",
+    "isNew": true,
+    "isLimited": true
+  },
+  {
+    "id": "P389137",
+    "sold": 0,
+    "name": "Seraphine Emerald Serpent Necklace",
+    "category": "Jewelry",
+    "price": 2499000,
+    "oldPrice": null,
+    "stock": 5,
+    "image": "https://i.pinimg.com/736x/8b/11/b6/8b11b60b5d90ce3d683406c0d41dfaed.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Silver"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Rhodium-Plated 925 Sterling Silver",
+    "origin": "Made In Indonesia",
+    "care": "Avoid direct contact with perfume, cosmetics, and harsh chemicals.",
+    "desc": "Command attention with the Seraphine Emerald Serpent Necklace, a masterpiece inspired by the elegance and mystique of the serpent.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P525961",
+    "sold": 0,
+    "name": "Nerina Emerald Serpent Necklace",
+    "category": "Jewelry",
+    "price": 2299000,
+    "oldPrice": null,
+    "stock": 2,
+    "image": "https://i.pinimg.com/736x/8b/21/1d/8b211dcd9d02ce43d96e6f0b4309831f.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "18K Gold Plated Brass",
+    "origin": "Made In Indonesia",
+    "care": "Avoid direct contact with perfumes, lotions, and harsh chemicals.",
+    "desc": "Inspired by the timeless symbolism of strength and transformation, the Nerina Emerald Serpent Necklace features a graceful serpent silhouette wrapped in a luxurious polished gold finish.",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P670290",
+    "sold": 0,
+    "name": "Valencia Gold Fringe Choker",
+    "category": "Jewelry",
+    "price": 1299000,
+    "oldPrice": null,
+    "stock": 5,
+    "image": "https://i.pinimg.com/vwebpf/1200x/78/e4/95/78e49574e2c4f3496599d5735a3786f8.webp",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "18K Gold Plated Stainless Steel",
+    "origin": "Made In Indonesia",
+    "care": "Make a bold yet elegant statement with the Valencia Gold Fringe Choker. Featuring a sleek collar silhouette adorned with cascading polished gold strands, this contemporary choker blends architectural design with timeless sophistication.",
+    "desc": "Avoid contact with perfume, lotions, and harsh chemicals.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P805136",
+    "sold": 0,
+    "name": "Lunaria Diamond V Necklace",
+    "category": "Jewelry",
+    "price": 1699000,
+    "oldPrice": null,
+    "stock": 4,
+    "image": "https://i.pinimg.com/736x/05/71/8d/05718d3d4600567b1e83cf86b8abd27b.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Rhodium-Plated 925 Sterling Silver",
+    "origin": "Made In Indonesia",
+    "care": "Avoid direct contact with perfumes, lotions, and harsh chemicals.",
+    "desc": "Gracefully refined, the Lunaria Diamond V Necklace showcases a delicate V-shaped silhouette adorned with brilliant AAA cubic zirconia that captures light from every angle.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P913637",
+    "sold": 0,
+    "name": "Selene Serpent Lariat Necklace",
+    "category": "Jewelry",
+    "price": 1499000,
+    "oldPrice": null,
+    "stock": 4,
+    "image": "https://i.pinimg.com/736x/ec/a1/ed/eca1edf653d797b5042424fc3c810401.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "18K Gold Plated Stainless Steel",
+    "origin": "Made In Indonesia",
+    "care": "Remove before showering, swimming, or exercising.",
+    "desc": "The Selene Serpent Lariat Necklace blends timeless symbolism with contemporary elegance.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P061215",
+    "sold": 0,
+    "name": "Virelle Sculptural Collar Necklace",
+    "category": "Jewelry",
+    "price": 1399000,
+    "oldPrice": null,
+    "stock": 6,
+    "image": "https://i.pinimg.com/1200x/8b/da/05/8bda05168e499e0b35a15123a3b14eb2.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Silver"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Rhodium-Plated Stainless Steel",
+    "origin": "Made In Indonesia",
+    "care": "Avoid direct contact with perfumes, lotions, and harsh chemicals.",
+    "desc": "The Virelle Sculptural Collar Necklace redefines modern elegance with its fluid, architectural silhouette. Featuring a sleek open-collar design with a graceful elongated drop, this statement piece captures the essence of contemporary luxury.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P278153",
+    "sold": 0,
+    "name": "Seraphine Emerald Serpent Bracelet",
+    "category": "Jewelry",
+    "price": 1799000,
+    "oldPrice": null,
+    "stock": 2,
+    "image": "https://i.pinimg.com/1200x/10/bb/48/10bb48528743d4faac9cc7790d48d88e.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "18K Gold Plated Brass",
+    "origin": "Made In Indonesia",
+    "care": "Avoid direct contact with perfume, lotions, and harsh chemicals.",
+    "desc": "Inspired by the elegance and symbolism of the serpent, the Seraphine Emerald Serpent Bracelet features a graceful wrap-around silhouette finished in radiant 18K gold plating.",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P607906",
+    "sold": 0,
+    "name": "Aurélia Gold Classic Watch",
+    "category": "Watches",
+    "price": 2899000,
+    "oldPrice": null,
+    "stock": 7,
+    "image": "https://i.pinimg.com/736x/0e/57/c4/0e57c4a0e76ff029198280c83fe2c4cf.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "316L Stainless Steel Case",
+    "origin": "Made In Indonesia",
+    "care": "Avoid strong impacts and exposure to magnetic fields.",
+    "desc": "The Aurélia Gold Classic Watch embodies timeless elegance with its minimalist gold-tone dial, polished stainless steel bracelet, and ultra-slim profile.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P936628",
+    "sold": 0,
+    "name": "Élan Rectangular Gold Watch",
+    "category": "Watches",
+    "price": 1499000,
+    "oldPrice": null,
+    "stock": 6,
+    "image": "https://i.pinimg.com/vwebpf/736x/9d/5c/fd/9d5cfd04eab01406225b261614f94c12.webp",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Stainless Steel 316L, Mineral Glass",
+    "origin": "Made in Japan",
+    "care": "Avoid exposure to perfume, chemicals, and seawater.",
+    "desc": "Timeless elegance meets modern simplicity. The Aurelia Noir Rectangle Watch features a refined rectangular black dial paired with a polished gold-tone stainless steel bracelet.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P071097",
+    "sold": 0,
+    "name": "Celeste Gold Classic Watch",
+    "category": "Watches",
+    "price": 2699000,
+    "oldPrice": null,
+    "stock": 5,
+    "image": "https://i.pinimg.com/vwebpf/1200x/81/52/5f/81525f914805e8686a852e79a2571ea1.webp",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Rose Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "316L Stainless Steel with Gold PVD Coating, Mineral Crystal Glass",
+    "origin": "Made in Japan",
+    "care": "Clean gently with a soft microfiber cloth",
+    "desc": "A timeless expression of elegance, the Celeste Gold Classic Watch features a radiant champagne sunburst dial housed in a polished gold-tone stainless steel case and bracelet.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P370617",
+    "sold": 0,
+    "name": "Seraphine Noir Spiral Watch",
+    "category": "Watches",
+    "price": 3899000,
+    "oldPrice": null,
+    "stock": 4,
+    "image": "https://i.pinimg.com/1200x/e0/1e/bb/e01ebbc4c71bb6c70b718114442090f5.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "316L Stainless Steel with Black & Rose Gold PVD Coating, Sapphire Crystal Glass",
+    "origin": "Made in Switzerland",
+    "care": "Clean with a soft microfiber cloth after each use.",
+    "desc": "Bold sophistication meets timeless craftsmanship. The Seraphine Noir Spiral Watch features a striking black dial embraced by an elegant spiral bracelet in rose gold and black tones.",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P577733",
+    "sold": 0,
+    "name": "Lunaria Rose Gold Oval Watch",
+    "category": "Watches",
+    "price": 3299000,
+    "oldPrice": null,
+    "stock": 5,
+    "image": "https://i.pinimg.com/1200x/8b/97/ca/8b97ca0a1c1fb576c0edbe55c2cae6d1.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Rose Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "316L Stainless Steel with Rose Gold PVD Coating, Sapphire Crystal Glass",
+    "origin": "Switzerland",
+    "care": "Avoid contact with perfumes, lotions, harsh chemicals, and prolonged water exposure.",
+    "desc": "Gracefully refined, the Lunaria Rose Gold Oval Watch embodies timeless elegance with its sophisticated oval dial and polished rose gold finish.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P396954",
+    "sold": 0,
+    "name": "Celestia Silver Diamond Watch",
+    "category": "Watches",
+    "price": 2399000,
+    "oldPrice": null,
+    "stock": 4,
+    "image": "https://i.pinimg.com/736x/35/72/a1/3572a1cf1728ff4a3f987d002924977d.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Silver",
+      "Black"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "316L Stainless Steel",
+    "origin": "Made in Japan",
+    "care": "Avoid exposure to perfumes, harsh chemicals, and prolonged contact with water.",
+    "desc": "Featuring a clean white dial, sparkling crystal bezel, and a polished stainless steel bracelet, the Celestia Silver Diamond Watch complements both formal and everyday looks.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P522485",
+    "sold": 0,
+    "name": "Noir Argent Rectangular Watch",
+    "category": "Watches",
+    "price": 3499000,
+    "oldPrice": null,
+    "stock": 6,
+    "image": "https://i.pinimg.com/vwebpf/1200x/00/67/a3/0067a3a0b02eaee0b50ac008ef79331c.webp",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "316L Stainless Steel",
+    "origin": "Made in Japan",
+    "care": "Clean gently with a soft microfiber cloth.",
+    "desc": "The Noir Argent Rectangular Watch features a sleek black sunray dial framed by a polished silver-tone stainless steel case and bracelet.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P639206",
+    "sold": 0,
+    "name": "Vivienne Gold Slim Watch",
+    "category": "Watches",
+    "price": 2799000,
+    "oldPrice": null,
+    "stock": 6,
+    "image": "https://i.pinimg.com/1200x/02/fb/e4/02fbe44a9b7165abf3b44457f4cf8754.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "316L Stainless Steel",
+    "origin": "Made in Japan",
+    "care": "Clean with a soft microfiber cloth after each use.",
+    "desc": "Gracefully refined and effortlessly sophisticated, the Vivienne Gold Slim Watch showcases a slender rectangular case paired with a radiant gold-tone stainless steel bracelet.",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P736777",
+    "sold": 0,
+    "name": "Valora Noir Brown Watch",
+    "category": "Watches",
+    "price": 3099000,
+    "oldPrice": null,
+    "stock": 5,
+    "image": "https://i.pinimg.com/1200x/3d/f4/7f/3df47f6f5333c56b757f1a104f78d3d5.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Brown"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "316L Stainless Steel",
+    "origin": "Made in Japan",
+    "care": "Wipe gently with a soft microfiber cloth after use.",
+    "desc": "Bold elegance meets timeless craftsmanship. The Valora Noir Gold Watch features a sophisticated square case, a striking black sunray dial, and a polished gold-tone stainless steel bracelet.",
+    "isNew": true,
+    "isLimited": true
+  },
+  {
+    "id": "P837175",
+    "sold": 0,
+    "name": "Asteria Silver Horizon Watch",
+    "category": "Watches",
+    "price": 3799000,
+    "oldPrice": null,
+    "stock": 7,
+    "image": "https://i.pinimg.com/736x/7f/06/98/7f06988b788023eab9e329a35714d25d.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Silver"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "316L Stainless Steel Case & Bracelet, Sapphire Crystal Glass",
+    "origin": "Made in Switzerland",
+    "care": "Wipe with a soft microfiber cloth. Avoid strong impacts and prolonged exposure to chemicals.",
+    "desc": "Featuring a brushed stainless steel bracelet, warm champagne dial, and precision quartz movement, it delivers a refined look that transitions effortlessly from work to weekend.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P522787",
+    "sold": 0,
+    "name": "Éclipse Structured Leather Tote – Espresso Brown",
+    "category": "Bags",
+    "price": 6499000,
+    "oldPrice": null,
+    "stock": 10,
+    "image": "https://i.pinimg.com/1200x/56/37/0a/56370a3ce267cf9b61af1a32ba349ac7.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Espresso Brown",
+      "Black",
+      "Ivory White",
+      "Burgundy"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Full-Grain Calf Leather",
+    "origin": "Made in Italy",
+    "care": "Store in the included dust bag when not in use.",
+    "desc": "A timeless structured leather tote designed for modern elegance. Featuring a sleek silhouette, slim buckle accents, and sturdy top handles, this handbag offers a sophisticated look that effortlessly transitions from workdays to evening occasions.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P654390",
+    "sold": 0,
+    "name": "Arc Top Handle Bag – Midnight Black",
+    "category": "Bags",
+    "price": 7299000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/76/8e/1f/768e1fe18431845309bb767522defcef.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Midnight Black",
+      "Chocolate Brown",
+      "Emerald Green"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Smooth Calf Leather",
+    "origin": "Made in Italy",
+    "care": "Store in the provided dust bag when not in use.",
+    "desc": "A refined top-handle handbag crafted with a distinctive arched silhouette and an elegant woven handle. Designed for sophisticated occasions, this structured bag blends contemporary minimalism with timeless luxury.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P793793",
+    "sold": 0,
+    "name": "Luxiana Étoile Frame Clutch – Burgundy",
+    "category": "Bags",
+    "price": 7899000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/ec/a5/ec/eca5ec9ad36e800810eda86945475a1d.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Burgundy",
+      "Ivory Cream",
+      "Forest Green"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Nappa Leather",
+    "origin": "Made in Italy",
+    "care": "Keep away from prolonged sunlight, moisture, and excessive heat.",
+    "desc": "The Luxiana Étoile Frame Clutch is a statement of modern luxury and refined craftsmanship. Featuring a sculptural silhouette with elegant folds and a signature geometric gold-tone frame handle",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P891451",
+    "sold": 0,
+    "name": "Luxiana Panther Éclat Clutch – Noir Croc",
+    "category": "Bags",
+    "price": 8999000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/82/77/b3/8277b38a5b896c5c0db331e1d969cca6.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Noir Croc (Black)",
+      "Espresso Croc",
+      "Bordeaux Croc"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Embossed Crocodile-Pattern Calf Leather",
+    "origin": "Made in Italy",
+    "care": "Store in the provided dust bag when not in use.",
+    "desc": "The Luxiana Panther Éclat Clutch embodies fearless elegance and exceptional craftsmanship. Designed with an embossed crocodile-pattern leather exterior and a sculptural gold-tone panther handle,",
+    "isNew": true,
+    "isLimited": true
+  },
+  {
+    "id": "P981285",
+    "sold": 0,
+    "name": "Luxiana Aurelia Sculpt Handle Bag – Caramel",
+    "category": "Bags",
+    "price": 8499000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/b9/e0/87/b9e087b293155a73fe0dd2e35e0917c7.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Caramel",
+      "Midnight Black",
+      "Deep Burgundy"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Smooth Calf Leather",
+    "origin": "Made in Italy",
+    "care": "Store the bag in its dust bag when not in use.",
+    "desc": "Crafted from smooth premium leather, this elegant handbag features a distinctive sculptural gold-tone handle that transforms a classic silhouette into a wearable work of art.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P110848",
+    "sold": 0,
+    "name": "Luxiana Celestia Crystal Clutch – Midnight Noir",
+    "category": "Bags",
+    "price": 9299000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/5d/5f/db/5d5fdb1664d3cd849025b19f4b24ee3b.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Midnight Noir",
+      "Champagne Gold",
+      "Ruby Red"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Silk Satin Exterior",
+    "origin": "Made in Italy",
+    "care": "Store in the provided dust bag after each use.",
+    "desc": "Crafted from luxurious satin with a structured silhouette, this evening clutch is adorned with a dazzling crystal-encrusted sculptural handle that captures the light from every angle.",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P227589",
+    "sold": 0,
+    "name": "Luxiana Seraphine Gold Handle Clutch – Midnight Noir",
+    "category": "Bags",
+    "price": 8799000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/a1/82/12/a182127cb6653b3dd0dd14032a36249c.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Midnight Noir",
+      "Caramel Brown"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Smooth Calf Leather",
+    "origin": "Made in Italy",
+    "care": "Store in the provided dust bag when not in use.",
+    "desc": "The Luxiana Seraphine Gold Handle Clutch is a timeless expression of understated luxury. Crafted from premium smooth calf leather, this elegant evening bag features a graceful curved gold-tone handle and a refined structured silhouette.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P350739",
+    "sold": 0,
+    "name": "Luxiana Roselle Soft Pouch Clutch – Bordeaux",
+    "category": "Bags",
+    "price": 7699000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/22/ae/67/22ae672f03ee2e6c6f3cc1cba078e60a.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Bordeaux",
+      "Chocolate Brown"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Soft Microfiber Suede Lining",
+    "origin": "Made in Italy",
+    "care": "Store the clutch in the provided dust bag when not in use.",
+    "desc": "Designed with elegant gathered detailing and a soft, structured form, this clutch offers a modern interpretation of timeless luxury.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P535994",
+    "sold": 0,
+    "name": "Luxiana Serpentine Royale Clutch – Ivory Pearl",
+    "category": "Bags",
+    "price": 9499000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/3e/75/af/3e75af2c90f39413c62dc03af3bfcc29.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Ivory Pearl",
+      "Midnight Noir",
+      "Champagne Beige"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Smooth Nappa Leather",
+    "origin": "Made in Italy",
+    "care": "Store in the provided dust bag when not in use.",
+    "desc": "Crafted from premium smooth leather, this elegant clutch features a distinctive serpentine-inspired gold-tone frame that gracefully crowns its sculptural silhouette.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P781671",
+    "sold": 0,
+    "name": "Luxiana Riviera Canvas Tote – Sandstone",
+    "category": "Bags",
+    "price": 7499000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/8e/40/9d/8e409d1434206d1c32fa67ccd21ee2a2.jpg",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Sandstone",
+      "Natural Ivory",
+      "Caramel Tan"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Textured Cotton Canvas",
+    "origin": "Made in Italy",
+    "care": "Store in the provided dust bag when not in use.",
+    "desc": "The Luxiana Riviera Canvas Tote is a refined blend of effortless elegance and everyday functionality.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P015423",
+    "sold": 0,
+    "name": "Luxiana Élysée Satin Mule Heels – Mocha Bronze",
+    "category": "Heels",
+    "price": 5999000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/0f/44/ba/0f44bad57bf405b8d69296d09daac92f.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      "Mocha Bronze",
+      "Champagne Gold"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Satin Upper",
+    "origin": "Made In Indonesia",
+    "care": "Store the heels in the provided dust bag when not in use.",
+    "desc": "The Luxiana Élysée Satin Mule Heels embody effortless elegance through their sleek silhouette and refined craftsmanship.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P187059",
+    "sold": 0,
+    "name": "Luxiana Rouge Éclat Patent Pumps – Bordeaux",
+    "category": "Heels",
+    "price": 6799000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/51/3c/32/513c32906ee11118477bedbf2993ec2a.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      "Bordeaux",
+      "Deep Emerald"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Patent Calf Leather Upper",
+    "origin": "Made In Indonesia",
+    "care": "Store the pumps in the provided dust bags after each use.",
+    "desc": "Crafted from luxurious patent leather, these pointed-toe pumps feature a sleek stiletto heel and an elegant signature horsebit-inspired metal accent.",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P384921",
+    "sold": 0,
+    "name": "Luxiana Dolce Sculpt Heels – Noir Gold",
+    "category": "Heels",
+    "price": 7299000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/75/f4/62/75f462d431c9f37306eddbbaacc72c7e.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Calf Leather, Gold-Plated Sculptural Metal Heel, Leather Sole",
+    "origin": "Made In Indonesia",
+    "care": "Clean with a soft dry cloth. Store in a dust bag. Avoid water, rough surfaces, and direct sunlight.",
+    "desc": "Crafted from smooth black calf leather, these open-toe sandals feature an iconic sculptural gold heel that transforms every step into a statement.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P636587",
+    "sold": 0,
+    "name": "Luxiana Aurelia Monogram Sandals – Gold",
+    "category": "Heels",
+    "price": 7499000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/31/53/33/315333dcfd8c3d6dff994cda9781ac1e.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Metallic Leather, Sculptural Monogram Metal Heel, Leather Sole",
+    "origin": "Made In Indonesia",
+    "care": "Wipe gently with a soft dry cloth",
+    "desc": "Crafted from premium metallic leather, these elegant sandals offer a sophisticated silhouette that effortlessly elevates evening wear",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P780211",
+    "sold": 0,
+    "name": "Luxiana Noir Royale Patent Pumps – Gold Tip",
+    "category": "Heels",
+    "price": 7899000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/00/e7/eb/00e7ebae07f0a2b7e3d9ca2a57c8800e.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Patent Leather, Gold-Tone Metal Toe Cap, Metallic Stiletto Heel, Leather Sole",
+    "origin": "Made In Indonesia",
+    "care": "Clean gently with a soft microfiber cloth.",
+    "desc": "The Luxiana Noir Royale Patent Pumps redefine timeless sophistication with a sleek pointed-toe silhouette, polished patent leather, and luxurious gold-tone accents.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P921672",
+    "sold": 0,
+    "name": "Luxiana Or Étoile Mirror Pumps – Champagne Gold",
+    "category": "Heels",
+    "price": 8299000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/cc/04/eb/cc04ebd377c6ee35ab373712b8926e0b.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Mirror Metallic Leather, Genuine Leather Lining, Leather Sole",
+    "origin": "Made In Indonesia",
+    "care": "Gently wipe with a soft microfiber cloth after each use.",
+    "desc": "The Luxiana Or Étoile Mirror Pumps radiate timeless glamour with a sleek pointed-toe silhouette and brilliant mirror metallic finish.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P145413",
+    "sold": 0,
+    "name": "Luxiana Aurelle Gold Ankle Heels – Espresso Noir",
+    "category": "Heels",
+    "price": 7999000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/c8/c1/d4/c8c1d4232150775ba99ceaf2e1169329.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Calf Leather",
+    "origin": "Made In Indonesia",
+    "care": "Wipe gently with a soft dry cloth.",
+    "desc": "The Luxiana Aurelle Gold Ankle Heels – Espresso Noir embody understated luxury with sleek leather straps, a refined ankle buckle, and sculptural metallic gold heels.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P265277",
+    "sold": 0,
+    "name": "Luxiana Celeste Chain Satin Heels – Espresso Noir",
+    "category": "Heels",
+    "price": 8499000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/70/5a/8b/705a8be38de94dbea7dd2909ff483f87.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Satin",
+    "origin": "Made In Indonesia",
+    "care": "Wipe gently with a soft dry cloth.",
+    "desc": "The Luxiana Celeste Chain Satin Heels – Espresso Noir combine sleek satin craftsmanship with delicate gold chain ankle straps, creating an elegant silhouette for evening occasions.",
+    "isNew": false,
+    "isLimited": false
+  },
+  {
+    "id": "P437249",
+    "sold": 0,
+    "name": "uxiana Verona Leather Ankle Boots – Bordeaux",
+    "category": "Heels",
+    "price": 8799000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/93/e7/f0/93e7f0aae91d7883886aa0ffb73601f6.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Full-Grain Leather",
+    "origin": "Made In Indonesia",
+    "care": "Wipe gently with a soft leather cloth.",
+    "desc": "The Luxiana Verona Leather Ankle Boots – Bordeaux are crafted from supple full-grain leather and finished with a sleek pointed toe, sculpted block heel, and refined gold-tone side zipper.",
+    "isNew": false,
+    "isLimited": true
+  },
+  {
+    "id": "P568017",
+    "sold": 0,
+    "name": "Luxiana Noir Éclipse Patent Knee Boots – Bordeaux",
+    "category": "Heels",
+    "price": 9799000,
+    "oldPrice": null,
+    "stock": 15,
+    "image": "https://i.pinimg.com/1200x/ec/9a/df/ec9adf3eeb980729e2bfbbb6e85dff25.jpg",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "colors": [],
+    "allowCustomSize": false,
+    "customSizeFee": 0,
+    "discountPercent": 0,
+    "material": "Premium Patent Leather",
+    "origin": "Made In Indonesia",
+    "care": "Wipe gently with a soft microfiber cloth after each use.",
+    "desc": "The Luxiana Noir Éclipse Patent Knee Boots – Bordeaux redefine contemporary luxury with their glossy patent leather finish, elegant pointed toe, and slender stiletto heel.",
+    "isNew": false,
+    "isLimited": false
+  }
+]
