@@ -78,9 +78,9 @@
 
     // Editorial / About
     'Filosofi Kami': 'Our Philosophy',
-    'Dibuat untuk Bertahan Melampaui Tren': 'Made to Outlast Every Trend',
-    'Sejak awal, Luxiana berkomitmen pada keahlian tangan, material premium, dan desain abadi — bukan sekadar mengikuti musim, namun menciptakan warisan.':
-      'From the very beginning, Luxiana has been committed to hand craftsmanship, premium materials, and timeless design — not just following seasons, but creating a legacy.',
+    'Di Mana Keahlian Berpadu dengan Keanggunan Abadi': 'Where Craftsmanship Meets Timeless Elegance',
+    'Setiap karya Luxiana dibuat dengan penuh ketelitian, menggunakan material pilihan dan desain yang tak lekang oleh waktu. Diciptakan melampaui tren musiman, setiap koleksi menghadirkan keanggunan yang akan tetap relevan selama bertahun-tahun.':
+      'Every Luxiana piece is thoughtfully crafted with precision, exceptional materials, and enduring design. Created beyond seasonal trends, each collection embodies effortless elegance for years to come.',
     'Temukan Koleksi Kami': 'Discover Our Collection',
     'Browser Anda tidak mendukung tag video.': 'Your browser does not support the video tag.',
 
