@@ -15,7 +15,7 @@ const fs = require('fs');
 const path = require('path');
 
 // ⚠️ GANTI INI sesuai URL Back4app yang aktif sekarang (cek dulu di data.js / Back4app)
-const API_BASE_URL = 'https://luxianabackend-7u8wl33y.b4a.run/api/products';
+const API_BASE_URL = 'https://luxianabackend-zugjh3j8.b4a.run/api/products';
 
 // Nama file JSON produk kamu (taruh di folder yang sama dengan script ini)
 const JSON_FILE_NAME = 'produk.json';
